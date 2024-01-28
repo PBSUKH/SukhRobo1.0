@@ -60,12 +60,12 @@ START_BTN = [
         InlineKeyboardButton(text="✯ 𝐇𝐄𝐋𝐏 ✯", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS 𝐃𝐄𝐓𝐀𝐈𝐋𝐒", callback_data="Miko_"),
-        InlineKeyboardButton(text="𝐀𝐈", callback_data="ai_handler"),
-        InlineKeyboardButton(text=" 𝐒𝐎𝐔𝐑𝐑𝐂𝐄", callback_data="git_source"),
+        InlineKeyboardButton(text="✯ 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ✯", callback_data="Miko_"),
+        InlineKeyboardButton(text="✯ 𝐀𝐈 ✯", callback_data="ai_handler"),
+        InlineKeyboardButton(text="✯ 𝐒𝐎𝐔𝐑𝐑𝐂𝐄 ✯", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="𝐎𝐖𝐍𝐄𝐑", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="✯ 𝐎𝐖𝐍𝐄𝐑 ✯", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
