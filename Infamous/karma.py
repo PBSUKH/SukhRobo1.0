@@ -1,7 +1,3 @@
-# https://github.com/Infamous-Hydra/YaeMiko
-# https://github.com/Team-ProjectCodeX
-# https://t.me/O_okarma
-
 # <============================================== IMPORTS =========================================================>
 from pyrogram.types import InlineKeyboardButton as ib
 from telegram import InlineKeyboardButton
@@ -64,12 +60,12 @@ START_BTN = [
         InlineKeyboardButton(text="✯ 𝐇𝐄𝐋𝐏 ✯", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
-        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
-        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+        InlineKeyboardButton(text="DETAILS 𝐃𝐄𝐓𝐀𝐈𝐋𝐒", callback_data="Miko_"),
+        InlineKeyboardButton(text="𝐀𝐈", callback_data="ai_handler"),
+        InlineKeyboardButton(text=" 𝐒𝐎𝐔𝐑𝐑𝐂𝐄", callback_data="git_source"),
     ],
     [
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="𝐎𝐖𝐍𝐄𝐑", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
