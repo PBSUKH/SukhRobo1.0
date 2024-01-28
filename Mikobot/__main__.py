@@ -464,9 +464,9 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="✯ 𝐀𝐁𝐎𝐔𝐓.✯ ", callback_data="Miko_support"
+                            text="✯ 𝐀𝐁𝐎𝐔𝐓 ✯ ", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text=" ✯ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃.✯ ", callback_data="help_back"),
+                        InlineKeyboardButton(text=" ✯ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 ✯ ", callback_data="help_back"),
                     ],
                     [
                         InlineKeyboardButton(text=" ✯𝐈𝐍𝐒𝐈𝐃𝐄𝐑 ✯ ", callback_data="insider_"),
@@ -490,14 +490,14 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="✯ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✯", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
+                            text="✯ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 ✯", url=f"tg://user?id={OWNER_ID}"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_"),
+                        InlineKeyboardButton(text=" ✯ 𝐁𝐀𝐂𝐊 ✯", callback_data="Miko_"),
                     ],
                 ]
             ),
