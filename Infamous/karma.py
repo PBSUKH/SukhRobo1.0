@@ -54,7 +54,7 @@ START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP✯ 𝐇𝐄𝐋𝐏 ✯", callback_data="help_back"),
+        InlineKeyboardButton(text="✯ 𝐇𝐄𝐋𝐏 ✯", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="✯ 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ✯", callback_data="Miko_"),
