@@ -1,6 +1,4 @@
-# SOURCE https://github.com/Team-ProjectCodeX
-# CREATED BY https://t.me/O_okarma
-# PROVIDED BY https://t.me/ProjectCodeX
+
 
 # <============================================== IMPORTS =========================================================>
 import random
