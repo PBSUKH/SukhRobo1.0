@@ -56,12 +56,12 @@ PM_START_TEXT = """👻𝐇ᴇʏ ๏ 𝐈 𝐒ǫᴜᴀʀᴇ 𝐘ꪮᴜʀ 𝐆ʀ�
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text="─╼⃝𖠁𝐀ᴅᴅ ◈ 𝐌ᴇ ◈ 𝐁ᴀʙʏ𖠁⃝╾─•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="✯ 𝐇𝐄𝐋𝐏 ✯", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
