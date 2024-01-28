@@ -85,7 +85,7 @@ GROUP_START_BTN = [
 ALIVE_BTN = [
     [
         ib(text="✯ 𝐎𝐖𝐍𝐄𝐑 ✯", url="https://t.me/II_BAD_MUNDA_II"),
-        ib(text="✯ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✯", url="https://t.me/mastiwithfriendsx"),
+        ib(text="✯ 𝐂𝐇𝐀𝐓𝐈𝐍𝐆 ✯", url="https://t.me/II_CHAT_HUB_II"),
     ],
     [
         ib(
