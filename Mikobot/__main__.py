@@ -113,7 +113,7 @@ async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇦ 𝘽𝘼𝘾𝙆", callback_data="ai_handler"),
+                        InlineKeyboardButton("✯ 𝐁𝐀𝐂𝐊 ✯", callback_data="ai_handler"),
                     ],
                 ],
             ),
@@ -246,7 +246,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode=ParseMode.MARKDOWN,
             )
             await asyncio.sleep(0.2)
-            guu = await update.effective_message.reply_text("🐾")
+            guu = await update.effective_message.reply_text("❤️")
             await asyncio.sleep(1.8)
             await guu.delete()  # Await this line
             await update.effective_message.reply_text(
@@ -394,7 +394,7 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         mem = psutil.virtual_memory().percent
         disk = psutil.disk_usage("/").percent
         text = f"""
-𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨 ˹ ˹ 𝐁𝐑𝐎𝐊𝐄𝐍 ✰ 𝐑𝐎𝐁𝐎 ˼*
+𝐒𝐘𝐒𝐓𝐄𝐌 𝐒𝐓𝐀𝐓𝐒˹ ˹ 𝐁𝐑𝐎𝐊𝐄𝐍 ✰ 𝐑𝐎𝐁𝐎 ˼*
 ➖➖➖➖➖➖
 UPTIME ➼ {uptime}
 CPU ➼ {cpu}%
@@ -464,15 +464,15 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="✯ 𝐀𝐁𝐎𝐔𝐓.✯ ", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
+                        InlineKeyboardButton(text=" ✯ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃.✯ ", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
+                        InlineKeyboardButton(text=" ✯𝐈𝐍𝐒𝐈𝐃𝐄𝐑 ✯ ", callback_data="insider_"),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
+                        InlineKeyboardButton(text=" ✯ 𝐁𝐀𝐂𝐊 ✯ ", callback_data="Miko_back"),
                     ],
                 ]
             ),
