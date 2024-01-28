@@ -77,19 +77,19 @@ GROUP_START_BTN = [
         ),
     ],
     [
-        InlineKeyboardButton(text="SUPPORT 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="𝐎𝐖𝐍𝐄𝐑", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="✯ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✯", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="✯ 𝐎𝐖𝐍𝐄𝐑 ✯", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="𝐎𝐖𝐍𝐄𝐑", url="https://t.me/ABOUT_SHIVANSHOP"),
-        ib(text="SUPPORT 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/mastiwithfriendsx"),
+        ib(text="✯ 𝐎𝐖𝐍𝐄𝐑 ✯", url="https://t.me/II_BAD_MUNDA_II"),
+        ib(text="✯ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ✯", url="https://t.me/mastiwithfriendsx"),
     ],
     [
         ib(
-            text="⇦ ADD ME ⇨",
+            text="•─╼⃝𖠁𝐀ᴅᴅ ◈ 𝐌ᴇ ◈ 𝐁ᴀʙʏ𖠁⃝╾─•",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
