@@ -51,7 +51,7 @@
       "DATABASE_URL": {
          "description": "Required for SQL database connections.",
          "required": true,
-         "value": "postgres://"
+         "value": "postgres://blmaclrsyfmmgr:f8884d680d703e923f667e4acd25b8ed1e7db6260ba7202ad17cf579df186c72@ec2-52-4-153-146.compute-1.amazonaws.com:5432/d9cdrjp1jirb6c"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
